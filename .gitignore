@@ -1,0 +1,47 @@
+# ===== 機密（絕不 commit）=====
+.env
+*.env
+!.env.example
+client_secrets.json
+settings.yaml
+.agents/
+.claude/
+/CLAUDE.md
+/PLAN.md
+/PROGRESS.md
+
+# ===== 資料（絕不進 repo；只允許程式生成的 synthetic fixtures 放 tests/fixtures/）=====
+/data/
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+.coverage
+htmlcov/
+*.egg-info/
+build/
+dist/
+
+# ===== 模型與訓練產物（發佈用小型 export 之後視需要以 git add -f 個別放行）=====
+*.pt
+*.pth
+*.onnx
+*.safetensors
+/artifacts/models/
+checkpoints/
+wandb/
+/runs/
+lightning_logs/
+
+# ===== Notebooks =====
+.ipynb_checkpoints/
+
+# ===== OS / 編輯器 =====
+Thumbs.db
+.DS_Store
+*.swp

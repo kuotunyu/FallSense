@@ -1,0 +1,5037 @@
+{
+  "aggregate": {
+    "macro_f1": {
+      "mean": 0.7708140687834887,
+      "std": 0.08163478309873104
+    },
+    "per_class": {
+      "activity_1": {
+        "auprc": {
+          "mean": 0.8722268907563026,
+          "std": 0.11336196867338816
+        },
+        "f1": {
+          "mean": 0.6708758177616309,
+          "std": 0.13223412361890613
+        },
+        "precision": {
+          "mean": 0.640722349545879,
+          "std": 0.20840248138575246
+        },
+        "recall": {
+          "mean": 0.8509803921568627,
+          "std": 0.24420154672900127
+        },
+        "subjects_with_support": 17
+      },
+      "activity_10": {
+        "auprc": {
+          "mean": 1.0,
+          "std": 1.3597399555105182e-16
+        },
+        "f1": {
+          "mean": 0.9985080988917306,
+          "std": 0.004440960431883757
+        },
+        "precision": {
+          "mean": 1.0,
+          "std": 0.0
+        },
+        "recall": {
+          "mean": 0.9970571609084561,
+          "std": 0.00875007097125821
+        },
+        "subjects_with_support": 17
+      },
+      "activity_11": {
+        "auprc": {
+          "mean": 0.9778343815680007,
+          "std": 0.03724621723756388
+        },
+        "f1": {
+          "mean": 0.9426830735739244,
+          "std": 0.0403424266038075
+        },
+        "precision": {
+          "mean": 0.9728886790231748,
+          "std": 0.06190522564395907
+        },
+        "recall": {
+          "mean": 0.9187365597267834,
+          "std": 0.058300926210483064
+        },
+        "subjects_with_support": 17
+      },
+      "activity_2": {
+        "auprc": {
+          "mean": 0.6966639603561112,
+          "std": 0.26886983084100985
+        },
+        "f1": {
+          "mean": 0.5408076050933194,
+          "std": 0.30268262960101866
+        },
+        "precision": {
+          "mean": 0.49464186607043753,
+          "std": 0.35083841328935583
+        },
+        "recall": {
+          "mean": 0.7214285714285714,
+          "std": 0.3053951182749624
+        },
+        "subjects_with_support": 14
+      },
+      "activity_3": {
+        "auprc": {
+          "mean": 0.729028008639353,
+          "std": 0.21466774442926068
+        },
+        "f1": {
+          "mean": 0.5760069803322398,
+          "std": 0.25482760928721054
+        },
+        "precision": {
+          "mean": 0.5192110177404295,
+          "std": 0.26180933577599547
+        },
+        "recall": {
+          "mean": 0.719047619047619,
+          "std": 0.2960003600537125
+        },
+        "subjects_with_support": 17
+      },
+      "activity_4": {
+        "auprc": {
+          "mean": 0.7442867916397329,
+          "std": 0.1997903714366915
+        },
+        "f1": {
+          "mean": 0.6274540818658465,
+          "std": 0.2445440495893983
+        },
+        "precision": {
+          "mean": 0.5263197586726998,
+          "std": 0.27203070499880827
+        },
+        "recall": {
+          "mean": 0.8941176470588235,
+          "std": 0.2561020017378186
+        },
+        "subjects_with_support": 17
+      },
+      "activity_5": {
+        "auprc": {
+          "mean": 0.6965634542767578,
+          "std": 0.19987329353428956
+        },
+        "f1": {
+          "mean": 0.5500287294404941,
+          "std": 0.2364012128281231
+        },
+        "precision": {
+          "mean": 0.5292717086834733,
+          "std": 0.2668124663945748
+        },
+        "recall": {
+          "mean": 0.6565826330532214,
+          "std": 0.3208024428672676
+        },
+        "subjects_with_support": 17
+      },
+      "activity_6": {
+        "auprc": {
+          "mean": 0.9986005188688455,
+          "std": 0.0035575489339472873
+        },
+        "f1": {
+          "mean": 0.9883385184640554,
+          "std": 0.029459131020138175
+        },
+        "precision": {
+          "mean": 0.9971540417271726,
+          "std": 0.005646411680849111
+        },
+        "recall": {
+          "mean": 0.9811581624040405,
+          "std": 0.053003845802191925
+        },
+        "subjects_with_support": 17
+      },
+      "activity_7": {
+        "auprc": {
+          "mean": 0.9776133506534262,
+          "std": 0.0388649774765573
+        },
+        "f1": {
+          "mean": 0.945703193532698,
+          "std": 0.08355413303266956
+        },
+        "precision": {
+          "mean": 0.939471035545967,
+          "std": 0.12817268181889763
+        },
+        "recall": {
+          "mean": 0.9618133774874413,
+          "std": 0.047982525901350465
+        },
+        "subjects_with_support": 17
+      },
+      "activity_8": {
+        "auprc": {
+          "mean": 0.9591141555337285,
+          "std": 0.07936789389612303
+        },
+        "f1": {
+          "mean": 0.8811822824476524,
+          "std": 0.21836176489317052
+        },
+        "precision": {
+          "mean": 0.9274627549019787,
+          "std": 0.10689479309306853
+        },
+        "recall": {
+          "mean": 0.8721264447629374,
+          "std": 0.2646021128479695
+        },
+        "subjects_with_support": 17
+      },
+      "activity_9": {
+        "auprc": {
+          "mean": 0.85179973624964,
+          "std": 0.18619069078836678
+        },
+        "f1": {
+          "mean": 0.720979189070453,
+          "std": 0.20576054675872535
+        },
+        "precision": {
+          "mean": 0.6120019299585863,
+          "std": 0.22173027489678646
+        },
+        "recall": {
+          "mean": 0.9289215686274509,
+          "std": 0.14860805689855244
+        },
+        "subjects_with_support": 17
+      }
+    }
+  },
+  "config": {
+    "colsample_bytree": 0.8,
+    "inner_folds": 3,
+    "learning_rate": 0.05,
+    "max_depth": 3,
+    "min_child_weight": 2.0,
+    "n_estimators": 80,
+    "n_jobs": 2,
+    "num_classes": 11,
+    "random_state": 20260719,
+    "subsample": 0.8
+  },
+  "config_hash": "6b095fe163f4980ed6d7918917618749a5ac023509d22422c1dbcef275a85330",
+  "created_at": "2026-07-19T03:13:56.266313+00:00",
+  "data_manifest_checksum": "dbf2fa031b339388e0623b21c65e7cb4f075dee0886dc46a992e57d3881f3d7b",
+  "evaluation_protocol": "outer LOSO; inner GroupKFold OOF multinomial calibration; per-subject macro-F1 over held-out classes with support",
+  "feature_count": 462,
+  "feature_hash": "f3e84cc19c12406a95a52766f957993bcbb477223980fa4dc554b86520a78094",
+  "git_commit": "c6baf238119a4c281675d1dfad475181f1b3b463",
+  "imbalance": {
+    "scope": "each inner/final train fold only",
+    "weight": "n_samples / (n_classes * class_count)"
+  },
+  "label_mapping": {
+    "0": "activity_1",
+    "1": "activity_2",
+    "10": "activity_11",
+    "2": "activity_3",
+    "3": "activity_4",
+    "4": "activity_5",
+    "5": "activity_6",
+    "6": "activity_7",
+    "7": "activity_8",
+    "8": "activity_9",
+    "9": "activity_10"
+  },
+  "model": "XGBoost-handcrafted-11class",
+  "per_subject": [
+    {
+      "calibration": "multinomial logistic on outer-train grouped OOF probabilities",
+      "confusion_matrix": [
+        [
+          6,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          2,
+          4,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          6,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          3,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          4,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          130,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          142,
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          125,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          4,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          58,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          2,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          177
+        ]
+      ],
+      "macro_f1": 0.9034993315352033,
+      "per_class": {
+        "activity_1": {
+          "auprc": 0.9305555555555556,
+          "f1": 0.8571428571428571,
+          "precision": 0.75,
+          "recall": 1.0,
+          "support": 6
+        },
+        "activity_10": {
+          "auprc": 1.0,
+          "f1": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "support": 58
+        },
+        "activity_11": {
+          "auprc": 0.9997551026177036,
+          "f1": 0.9888268156424581,
+          "precision": 0.9943820224719101,
+          "recall": 0.9833333333333333,
+          "support": 180
+        },
+        "activity_2": {
+          "auprc": 0.9305555555555556,
+          "f1": 0.8,
+          "precision": 1.0,
+          "recall": 0.6666666666666666,
+          "support": 6
+        },
+        "activity_3": {
+          "auprc": 0.9240362811791383,
+          "f1": 0.8571428571428571,
+          "precision": 0.8571428571428571,
+          "recall": 0.8571428571428571,
+          "support": 7
+        },
+        "activity_4": {
+          "auprc": 0.4777777777777778,
+          "f1": 0.75,
+          "precision": 0.6,
+          "recall": 1.0,
+          "support": 3
+        },
+        "activity_5": {
+          "auprc": 0.9028571428571428,
+          "f1": 0.8,
+          "precision": 0.8,
+          "recall": 0.8,
+          "support": 5
+        },
+        "activity_6": {
+          "auprc": 1.0,
+          "f1": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "support": 130
+        },
+        "activity_7": {
+          "auprc": 1.0,
+          "f1": 0.9964912280701754,
+          "precision": 1.0,
+          "recall": 0.993006993006993,
+          "support": 143
+        },
+        "activity_8": {
+          "auprc": 1.0,
+          "f1": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "support": 125
+        },
+        "activity_9": {
+          "auprc": 1.0,
+          "f1": 0.8888888888888888,
+          "precision": 0.8,
+          "recall": 1.0,
+          "support": 4
+        }
+      },
+      "present_classes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "subject": 1,
+      "test_class_counts": {
+        "activity_1": 6,
+        "activity_10": 58,
+        "activity_11": 180,
+        "activity_2": 6,
+        "activity_3": 7,
+        "activity_4": 3,
+        "activity_5": 5,
+        "activity_6": 130,
+        "activity_7": 143,
+        "activity_8": 125,
+        "activity_9": 4
+      },
+      "train_class_counts": {
+        "activity_1": 62,
+        "activity_10": 936,
+        "activity_11": 2801,
+        "activity_2": 52,
+        "activity_3": 71,
+        "activity_4": 59,
+        "activity_5": 78,
+        "activity_6": 1975,
+        "activity_7": 2175,
+        "activity_8": 1959,
+        "activity_9": 70
+      },
+      "train_class_weights": {
+        "activity_1": 15.011730205278592,
+        "activity_10": 0.9943667443667443,
+        "activity_11": 0.332283924572393,
+        "activity_2": 17.8986013986014,
+        "activity_3": 13.108834827144687,
+        "activity_4": 15.775038520801232,
+        "activity_5": 11.932400932400933,
+        "activity_6": 0.4712543153049482,
+        "activity_7": 0.42792058516196446,
+        "activity_8": 0.47510325305118567,
+        "activity_9": 13.296103896103896
+      }
+    },
+    {
+      "calibration": "multinomial logistic on outer-train grouped OOF probabilities",
+      "confusion_matrix": [
+        [
+          6,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          4,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          4,
+          2,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          5,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          2,
+          3,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          123,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          130,
+          1,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          80,
+          0,
+          0,
+          41
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          51,
+          0
+        ],
+        [
+          3,
+          1,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          155
+        ]
+      ],
+      "macro_f1": 0.8256225441434715,
+      "per_class": {
+        "activity_1": {
+          "auprc": 0.8178571428571427,
+          "f1": 0.8,
+          "precision": 0.6666666666666666,
+          "recall": 1.0,
+          "support": 6
+        },
+        "activity_10": {
+          "auprc": 1.0000000000000002,
+          "f1": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "support": 51
+        },
+        "activity_11": {
+          "auprc": 0.9845047142749734,
+          "f1": 0.8683473389355743,
+          "precision": 0.7868020304568528,
+          "recall": 0.96875,
+          "support": 160
+        },
+        "activity_2": {
+          "auprc": 0.8041666666666667,
+          "f1": 0.8888888888888888,
+          "precision": 0.8,
+          "recall": 1.0,
+          "support": 4
+        },
+        "activity_3": {
+          "auprc": 0.6854166666666666,
+          "f1": 0.7272727272727273,
+          "precision": 0.8,
+          "recall": 0.6666666666666666,
+          "support": 6
+        },
+        "activity_4": {
+          "auprc": 0.6192857142857143,
+          "f1": 0.6666666666666666,
+          "precision": 0.5,
+          "recall": 1.0,
+          "support": 5
+        },
+        "activity_5": {
+          "auprc": 0.982142857142857,
+          "f1": 0.6,
+          "precision": 1.0,
+          "recall": 0.42857142857142855,
+          "support": 7
+        },
+        "activity_6": {
+          "auprc": 1.0000000000000004,
+          "f1": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "support": 123
+        },
+        "activity_7": {
+          "auprc": 0.9942797641585982,
+          "f1": 0.9885931558935361,
+          "precision": 1.0,
+          "recall": 0.9774436090225563,
+          "support": 133
+        },
+        "activity_8": {
+          "auprc": 0.987067161051087,
+          "f1": 0.7920792079207921,
+          "precision": 0.9876543209876543,
+          "recall": 0.6611570247933884,
+          "support": 121
+        },
+        "activity_9": {
+          "auprc": 0.9166666666666665,
+          "f1": 0.75,
+          "precision": 0.6,
+          "recall": 1.0,
+          "support": 3
+        }
+      },
+      "present_classes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "subject": 2,
+      "test_class_counts": {
+        "activity_1": 6,
+        "activity_10": 51,
+        "activity_11": 160,
+        "activity_2": 4,
+        "activity_3": 6,
+        "activity_4": 5,
+        "activity_5": 7,
+        "activity_6": 123,
+        "activity_7": 133,
+        "activity_8": 121,
+        "activity_9": 3
+      },
+      "train_class_counts": {
+        "activity_1": 62,
+        "activity_10": 943,
+        "activity_11": 2821,
+        "activity_2": 54,
+        "activity_3": 72,
+        "activity_4": 57,
+        "activity_5": 76,
+        "activity_6": 1982,
+        "activity_7": 2185,
+        "activity_8": 1963,
+        "activity_9": 71
+      },
+      "train_class_weights": {
+        "activity_1": 15.082111436950147,
+        "activity_10": 0.991612841029596,
+        "activity_11": 0.33147497663626696,
+        "activity_2": 17.316498316498315,
+        "activity_3": 12.987373737373737,
+        "activity_4": 16.405103668261564,
+        "activity_5": 12.303827751196172,
+        "activity_6": 0.4717915787542427,
+        "activity_7": 0.4279592261285625,
+        "activity_8": 0.47635807900708566,
+        "activity_9": 13.170294494238156
+      }
+    },
+    {
+      "calibration": "multinomial logistic on outer-train grouped OOF probabilities",
+      "confusion_matrix": [
+        [
+          6,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          4,
+          2,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          5,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          3,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          127,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          126,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          123,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          6,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          59,
+          0
+        ],
+        [
+          1,
+          4,
+          3,
+          1,
+          1,
+          0,
+          11,
+          0,
+          0,
+          0,
+          174
+        ]
+      ],
+      "macro_f1": 0.7484100099372085,
+      "per_class": {
+        "activity_1": {
+          "auprc": 0.7402777777777777,
+          "f1": 0.7058823529411765,
+          "precision": 0.5454545454545454,
+          "recall": 1.0,
+          "support": 6
+        },
+        "activity_10": {
+          "auprc": 0.9999999999999998,
+          "f1": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "support": 59
+        },
+        "activity_11": {
+          "auprc": 0.9655358034384797,
+          "f1": 0.943089430894309,
+          "precision": 1.0,
+          "recall": 0.8923076923076924,
+          "support": 195
+        },
+        "activity_2": {
+          "auprc": 0.6138528138528139,
+          "f1": 0.3076923076923077,
+          "precision": 0.2857142857142857,
+          "recall": 0.3333333333333333,
+          "support": 6
+        },
+        "activity_3": {
+          "auprc": 0.7827380952380952,
+          "f1": 0.5555555555555556,
+          "precision": 0.4166666666666667,
+          "recall": 0.8333333333333334,
+          "support": 6
+        },
+        "activity_4": {
+          "auprc": 0.81,
+          "f1": 0.6666666666666666,
+          "precision": 0.75,
+          "recall": 0.6,
+          "support": 5
+        },
+        "activity_5": {
+          "auprc": 0.4784090909090909,
+          "f1": 0.25,
+          "precision": 0.25,
+          "recall": 0.25,
+          "support": 4
+        },
+        "activity_6": {
+          "auprc": 1.0,
+          "f1": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "support": 127
+        },
+        "activity_7": {
+          "auprc": 0.8612385524206123,
+          "f1": 0.9545454545454546,
+          "precision": 0.9197080291970803,
+          "recall": 0.9921259842519685,
+          "support": 127
+        },
+        "activity_8": {
+          "auprc": 0.9963834899122131,
+          "f1": 0.9919354838709677,
+          "precision": 1.0,
+          "recall": 0.984,
+          "support": 125
+        },
+        "activity_9": {
+          "auprc": 1.0,
+          "f1": 0.8571428571428571,
+          "precision": 0.75,
+          "recall": 1.0,
+          "support": 6
+        }
+      },
+      "present_classes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "subject": 3,
+      "test_class_counts": {
+        "activity_1": 6,
+        "activity_10": 59,
+        "activity_11": 195,
+        "activity_2": 6,
+        "activity_3": 6,
+        "activity_4": 5,
+        "activity_5": 4,
+        "activity_6": 127,
+        "activity_7": 127,
+        "activity_8": 125,
+        "activity_9": 6
+      },
+      "train_class_counts": {
+        "activity_1": 62,
+        "activity_10": 935,
+        "activity_11": 2786,
+        "activity_2": 52,
+        "activity_3": 72,
+        "activity_4": 57,
+        "activity_5": 79,
+        "activity_6": 1978,
+        "activity_7": 2191,
+        "activity_8": 1959,
+        "activity_9": 68
+      },
+      "train_class_weights": {
+        "activity_1": 15.013196480938417,
+        "activity_10": 0.9955274671852212,
+        "activity_11": 0.33410559289956276,
+        "activity_2": 17.90034965034965,
+        "activity_3": 12.928030303030303,
+        "activity_4": 16.330143540669855,
+        "activity_5": 11.782508630609897,
+        "activity_6": 0.4705855317584337,
+        "activity_7": 0.42483714368698394,
+        "activity_8": 0.4751496589168871,
+        "activity_9": 13.688502673796792
+      }
+    },
+    {
+      "calibration": "multinomial logistic on outer-train grouped OOF probabilities",
+      "confusion_matrix": [
+        [
+          3,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          6,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          4,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          4,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          6,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          126,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          138,
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          124,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          4,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          60,
+          0
+        ],
+        [
+          3,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          2,
+          0,
+          0,
+          181
+        ]
+      ],
+      "macro_f1": 0.791921337362994,
+      "per_class": {
+        "activity_1": {
+          "auprc": 0.8055555555555556,
+          "f1": 0.6,
+          "precision": 0.42857142857142855,
+          "recall": 1.0,
+          "support": 3
+        },
+        "activity_10": {
+          "auprc": 1.0,
+          "f1": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "support": 60
+        },
+        "activity_11": {
+          "auprc": 0.9909619311518658,
+          "f1": 0.981029810298103,
+          "precision": 1.0,
+          "recall": 0.9627659574468085,
+          "support": 188
+        },
+        "activity_2": {
+          "auprc": 1.0,
+          "f1": 0.9230769230769231,
+          "precision": 0.8571428571428571,
+          "recall": 1.0,
+          "support": 6
+        },
+        "activity_3": {
+          "auprc": 0.95,
+          "f1": 0.8,
+          "precision": 0.6666666666666666,
+          "recall": 1.0,
+          "support": 4
+        },
+        "activity_4": {
+          "auprc": 0.39858974358974353,
+          "f1": 0.5333333333333333,
+          "precision": 0.4,
+          "recall": 0.8,
+          "support": 5
+        },
+        "activity_5": {
+          "auprc": 0.4905780494015788,
+          "f1": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "support": 6
+        },
+        "activity_6": {
+          "auprc": 0.9999999999999999,
+          "f1": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "support": 126
+        },
+        "activity_7": {
+          "auprc": 0.9996506818689918,
+          "f1": 0.9928057553956835,
+          "precision": 1.0,
+          "recall": 0.9857142857142858,
+          "support": 140
+        },
+        "activity_8": {
+          "auprc": 1.0,
+          "f1": 0.992,
+          "precision": 0.9841269841269841,
+          "recall": 1.0,
+          "support": 124
+        },
+        "activity_9": {
+          "auprc": 0.8041666666666667,
+          "f1": 0.8888888888888888,
+          "precision": 0.8,
+          "recall": 1.0,
+          "support": 4
+        }
+      },
+      "present_classes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "subject": 4,
+      "test_class_counts": {
+        "activity_1": 3,
+        "activity_10": 60,
+        "activity_11": 188,
+        "activity_2": 6,
+        "activity_3": 4,
+        "activity_4": 5,
+        "activity_5": 6,
+        "activity_6": 126,
+        "activity_7": 140,
+        "activity_8": 124,
+        "activity_9": 4
+      },
+      "train_class_counts": {
+        "activity_1": 65,
+        "activity_10": 934,
+        "activity_11": 2793,
+        "activity_2": 52,
+        "activity_3": 74,
+        "activity_4": 57,
+        "activity_5": 77,
+        "activity_6": 1979,
+        "activity_7": 2178,
+        "activity_8": 1960,
+        "activity_9": 70
+      },
+      "train_class_weights": {
+        "activity_1": 14.32027972027972,
+        "activity_10": 0.9965933424177535,
+        "activity_11": 0.33326823552387463,
+        "activity_2": 17.90034965034965,
+        "activity_3": 12.57862407862408,
+        "activity_4": 16.330143540669855,
+        "activity_5": 12.088547815820544,
+        "activity_6": 0.47034774220221415,
+        "activity_7": 0.42737290257951416,
+        "activity_8": 0.4749072356215213,
+        "activity_9": 13.297402597402597
+      }
+    },
+    {
+      "calibration": "multinomial logistic on outer-train grouped OOF probabilities",
+      "confusion_matrix": [
+        [
+          2,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          2,
+          2,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          3,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          127,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          2,
+          3,
+          0,
+          142,
+          0,
+          3,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          127,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          63,
+          0
+        ],
+        [
+          1,
+          1,
+          2,
+          3,
+          2,
+          0,
+          0,
+          13,
+          0,
+          0,
+          154
+        ]
+      ],
+      "macro_f1": 0.6680278770994016,
+      "per_class": {
+        "activity_1": {
+          "auprc": 0.7,
+          "f1": 0.5714285714285714,
+          "precision": 0.5,
+          "recall": 0.6666666666666666,
+          "support": 3
+        },
+        "activity_10": {
+          "auprc": 1.0,
+          "f1": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "support": 63
+        },
+        "activity_11": {
+          "auprc": 0.9965586787117587,
+          "f1": 0.9305135951661632,
+          "precision": 0.9935483870967742,
+          "recall": 0.875,
+          "support": 176
+        },
+        "activity_2": {
+          "auprc": 0.063894523326572,
+          "f1": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "support": 2
+        },
+        "activity_3": {
+          "auprc": 0.775,
+          "f1": 0.5,
+          "precision": 0.5,
+          "recall": 0.5,
+          "support": 4
+        },
+        "activity_4": {
+          "auprc": 0.6666666666666667,
+          "f1": 0.375,
+          "precision": 0.23076923076923078,
+          "recall": 1.0,
+          "support": 3
+        },
+        "activity_5": {
+          "auprc": 0.33958333333333335,
+          "f1": 0.46153846153846156,
+          "precision": 0.3333333333333333,
+          "recall": 0.75,
+          "support": 4
+        },
+        "activity_6": {
+          "auprc": 0.9997632575757576,
+          "f1": 0.996078431372549,
+          "precision": 1.0,
+          "recall": 0.9921875,
+          "support": 128
+        },
+        "activity_7": {
+          "auprc": 0.9797545203572325,
+          "f1": 0.9659863945578231,
+          "precision": 1.0,
+          "recall": 0.9342105263157895,
+          "support": 152
+        },
+        "activity_8": {
+          "auprc": 1.0,
+          "f1": 0.9477611940298507,
+          "precision": 0.900709219858156,
+          "recall": 1.0,
+          "support": 127
+        },
+        "activity_9": {
+          "auprc": 0.7986111111111112,
+          "f1": 0.6,
+          "precision": 0.5,
+          "recall": 0.75,
+          "support": 4
+        }
+      },
+      "present_classes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "subject": 5,
+      "test_class_counts": {
+        "activity_1": 3,
+        "activity_10": 63,
+        "activity_11": 176,
+        "activity_2": 2,
+        "activity_3": 4,
+        "activity_4": 3,
+        "activity_5": 4,
+        "activity_6": 128,
+        "activity_7": 152,
+        "activity_8": 127,
+        "activity_9": 4
+      },
+      "train_class_counts": {
+        "activity_1": 65,
+        "activity_10": 931,
+        "activity_11": 2805,
+        "activity_2": 56,
+        "activity_3": 74,
+        "activity_4": 59,
+        "activity_5": 79,
+        "activity_6": 1977,
+        "activity_7": 2166,
+        "activity_8": 1957,
+        "activity_9": 70
+      },
+      "train_class_weights": {
+        "activity_1": 14.32027972027972,
+        "activity_10": 0.9998047065716239,
+        "activity_11": 0.3318424890617404,
+        "activity_2": 16.621753246753247,
+        "activity_3": 12.57862407862408,
+        "activity_4": 15.77657935285054,
+        "activity_5": 11.782508630609897,
+        "activity_6": 0.47082356187060287,
+        "activity_7": 0.42974061949131204,
+        "activity_8": 0.47563524875737445,
+        "activity_9": 13.297402597402597
+      }
+    },
+    {
+      "calibration": "multinomial logistic on outer-train grouped OOF probabilities",
+      "confusion_matrix": [
+        [
+          3,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          2,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          2,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          2,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          102,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          109,
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          99,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          48,
+          0
+        ],
+        [
+          2,
+          4,
+          3,
+          1,
+          2,
+          0,
+          0,
+          0,
+          0,
+          0,
+          146
+        ]
+      ],
+      "macro_f1": 0.7932546705077346,
+      "per_class": {
+        "activity_1": {
+          "auprc": 0.8666666666666667,
+          "f1": 0.6666666666666666,
+          "precision": 0.5,
+          "recall": 1.0,
+          "support": 3
+        },
+        "activity_10": {
+          "auprc": 1.0000000000000002,
+          "f1": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "support": 48
+        },
+        "activity_11": {
+          "auprc": 0.9933898788838085,
+          "f1": 0.9605263157894737,
+          "precision": 1.0,
+          "recall": 0.9240506329113924,
+          "support": 158
+        },
+        "activity_2": {
+          "auprc": 0.5317460317460317,
+          "f1": 0.4444444444444444,
+          "precision": 0.3333333333333333,
+          "recall": 0.6666666666666666,
+          "support": 3
+        },
+        "activity_3": {
+          "auprc": 0.4,
+          "f1": 0.4444444444444444,
+          "precision": 0.3333333333333333,
+          "recall": 0.6666666666666666,
+          "support": 3
+        },
+        "activity_4": {
+          "auprc": 1.0,
+          "f1": 0.8571428571428571,
+          "precision": 0.75,
+          "recall": 1.0,
+          "support": 3
+        },
+        "activity_5": {
+          "auprc": 0.6666666666666666,
+          "f1": 0.5,
+          "precision": 0.4,
+          "recall": 0.6666666666666666,
+          "support": 3
+        },
+        "activity_6": {
+          "auprc": 0.9999999999999998,
+          "f1": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "support": 102
+        },
+        "activity_7": {
+          "auprc": 0.9999180999180997,
+          "f1": 0.9954337899543378,
+          "precision": 1.0,
+          "recall": 0.990909090909091,
+          "support": 110
+        },
+        "activity_8": {
+          "auprc": 0.9999999999999998,
+          "f1": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "support": 99
+        },
+        "activity_9": {
+          "auprc": 1.0,
+          "f1": 0.8571428571428571,
+          "precision": 0.75,
+          "recall": 1.0,
+          "support": 3
+        }
+      },
+      "present_classes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "subject": 6,
+      "test_class_counts": {
+        "activity_1": 3,
+        "activity_10": 48,
+        "activity_11": 158,
+        "activity_2": 3,
+        "activity_3": 3,
+        "activity_4": 3,
+        "activity_5": 3,
+        "activity_6": 102,
+        "activity_7": 110,
+        "activity_8": 99,
+        "activity_9": 3
+      },
+      "train_class_counts": {
+        "activity_1": 65,
+        "activity_10": 946,
+        "activity_11": 2823,
+        "activity_2": 55,
+        "activity_3": 75,
+        "activity_4": 59,
+        "activity_5": 80,
+        "activity_6": 2003,
+        "activity_7": 2208,
+        "activity_8": 1985,
+        "activity_9": 71
+      },
+      "train_class_weights": {
+        "activity_1": 14.503496503496503,
+        "activity_10": 0.9965404574284067,
+        "activity_11": 0.3339451904807909,
+        "activity_2": 17.140495867768596,
+        "activity_3": 12.56969696969697,
+        "activity_4": 15.978428351309708,
+        "activity_5": 11.784090909090908,
+        "activity_6": 0.47065764988880315,
+        "activity_7": 0.4269598155467721,
+        "activity_8": 0.4749255782001374,
+        "activity_9": 13.277848911651729
+      }
+    },
+    {
+      "calibration": "multinomial logistic on outer-train grouped OOF probabilities",
+      "confusion_matrix": [
+        [
+          3,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          4,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          6,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          120,
+          0,
+          0,
+          10,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          133,
+          0,
+          4,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          123,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          4,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          63,
+          0
+        ],
+        [
+          2,
+          1,
+          6,
+          1,
+          0,
+          0,
+          1,
+          3,
+          1,
+          0,
+          168
+        ]
+      ],
+      "macro_f1": 0.724642400166167,
+      "per_class": {
+        "activity_1": {
+          "auprc": 0.875,
+          "f1": 0.6666666666666666,
+          "precision": 0.6,
+          "recall": 0.75,
+          "support": 4
+        },
+        "activity_10": {
+          "auprc": 1.0,
+          "f1": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "support": 63
+        },
+        "activity_11": {
+          "auprc": 0.9810919158549779,
+          "f1": 0.9572649572649573,
+          "precision": 1.0,
+          "recall": 0.9180327868852459,
+          "support": 183
+        },
+        "activity_2": {
+          "auprc": null,
+          "f1": null,
+          "precision": null,
+          "recall": null,
+          "support": 0
+        },
+        "activity_3": {
+          "auprc": 0.6388888888888888,
+          "f1": 0.35294117647058826,
+          "precision": 0.21428571428571427,
+          "recall": 1.0,
+          "support": 3
+        },
+        "activity_4": {
+          "auprc": 0.4583333333333333,
+          "f1": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "support": 4
+        },
+        "activity_5": {
+          "auprc": 1.0,
+          "f1": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "support": 6
+        },
+        "activity_6": {
+          "auprc": 0.9991654182681562,
+          "f1": 0.9561752988047809,
+          "precision": 0.9917355371900827,
+          "recall": 0.9230769230769231,
+          "support": 130
+        },
+        "activity_7": {
+          "auprc": 0.9906182406390847,
+          "f1": 0.981549815498155,
+          "precision": 0.9925373134328358,
+          "recall": 0.9708029197080292,
+          "support": 137
+        },
+        "activity_8": {
+          "auprc": 0.9987030033370412,
+          "f1": 0.984,
+          "precision": 0.9761904761904762,
+          "recall": 0.9919354838709677,
+          "support": 124
+        },
+        "activity_9": {
+          "auprc": 0.5845238095238094,
+          "f1": 0.34782608695652173,
+          "precision": 0.21052631578947367,
+          "recall": 1.0,
+          "support": 4
+        }
+      },
+      "present_classes": [
+        1,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "subject": 7,
+      "test_class_counts": {
+        "activity_1": 4,
+        "activity_10": 63,
+        "activity_11": 183,
+        "activity_2": 0,
+        "activity_3": 3,
+        "activity_4": 4,
+        "activity_5": 6,
+        "activity_6": 130,
+        "activity_7": 137,
+        "activity_8": 124,
+        "activity_9": 4
+      },
+      "train_class_counts": {
+        "activity_1": 64,
+        "activity_10": 931,
+        "activity_11": 2798,
+        "activity_2": 58,
+        "activity_3": 75,
+        "activity_4": 58,
+        "activity_5": 77,
+        "activity_6": 1975,
+        "activity_7": 2181,
+        "activity_8": 1960,
+        "activity_9": 70
+      },
+      "train_class_weights": {
+        "activity_1": 14.555397727272727,
+        "activity_10": 1.0005858802851284,
+        "activity_11": 0.33293261420495157,
+        "activity_2": 16.061128526645767,
+        "activity_3": 12.42060606060606,
+        "activity_4": 16.061128526645767,
+        "activity_5": 12.097992916174734,
+        "activity_6": 0.471668584579977,
+        "activity_7": 0.4271185027718728,
+        "activity_8": 0.475278293135436,
+        "activity_9": 13.307792207792208
+      }
+    },
+    {
+      "calibration": "multinomial logistic on outer-train grouped OOF probabilities",
+      "confusion_matrix": [
+        [
+          4,
+          2,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          6,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          4,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          4,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          6,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          122,
+          0,
+          0,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          135,
+          0,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          2,
+          122,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          7,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          2,
+          0,
+          0,
+          0,
+          0,
+          59,
+          0
+        ],
+        [
+          0,
+          1,
+          2,
+          0,
+          2,
+          0,
+          3,
+          13,
+          0,
+          0,
+          75
+        ]
+      ],
+      "macro_f1": 0.80048790999555,
+      "per_class": {
+        "activity_1": {
+          "auprc": 1.0,
+          "f1": 0.8,
+          "precision": 1.0,
+          "recall": 0.6666666666666666,
+          "support": 6
+        },
+        "activity_10": {
+          "auprc": 1.0,
+          "f1": 0.9833333333333333,
+          "precision": 1.0,
+          "recall": 0.9672131147540983,
+          "support": 61
+        },
+        "activity_11": {
+          "auprc": 0.9920655762304923,
+          "f1": 0.8771929824561403,
+          "precision": 1.0,
+          "recall": 0.78125,
+          "support": 96
+        },
+        "activity_2": {
+          "auprc": 1.0,
+          "f1": 0.8,
+          "precision": 0.6666666666666666,
+          "recall": 1.0,
+          "support": 6
+        },
+        "activity_3": {
+          "auprc": 0.7087301587301588,
+          "f1": 0.25,
+          "precision": 0.3333333333333333,
+          "recall": 0.2,
+          "support": 5
+        },
+        "activity_4": {
+          "auprc": 1.0,
+          "f1": 0.8888888888888888,
+          "precision": 1.0,
+          "recall": 0.8,
+          "support": 5
+        },
+        "activity_5": {
+          "auprc": 0.876984126984127,
+          "f1": 0.5714285714285714,
+          "precision": 0.4,
+          "recall": 1.0,
+          "support": 6
+        },
+        "activity_6": {
+          "auprc": 0.9942958016821191,
+          "f1": 0.9878542510121457,
+          "precision": 0.991869918699187,
+          "recall": 0.9838709677419355,
+          "support": 124
+        },
+        "activity_7": {
+          "auprc": 0.9851917071770618,
+          "f1": 0.967741935483871,
+          "precision": 0.9574468085106383,
+          "recall": 0.9782608695652174,
+          "support": 138
+        },
+        "activity_8": {
+          "auprc": 0.9926645566072235,
+          "f1": 0.9420849420849421,
+          "precision": 0.9037037037037037,
+          "recall": 0.9838709677419355,
+          "support": 124
+        },
+        "activity_9": {
+          "auprc": 0.824156746031746,
+          "f1": 0.7368421052631579,
+          "precision": 0.6363636363636364,
+          "recall": 0.875,
+          "support": 8
+        }
+      },
+      "present_classes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "subject": 8,
+      "test_class_counts": {
+        "activity_1": 6,
+        "activity_10": 61,
+        "activity_11": 96,
+        "activity_2": 6,
+        "activity_3": 5,
+        "activity_4": 5,
+        "activity_5": 6,
+        "activity_6": 124,
+        "activity_7": 138,
+        "activity_8": 124,
+        "activity_9": 8
+      },
+      "train_class_counts": {
+        "activity_1": 62,
+        "activity_10": 933,
+        "activity_11": 2885,
+        "activity_2": 52,
+        "activity_3": 73,
+        "activity_4": 57,
+        "activity_5": 77,
+        "activity_6": 1981,
+        "activity_7": 2180,
+        "activity_8": 1960,
+        "activity_9": 66
+      },
+      "train_class_weights": {
+        "activity_1": 15.140762463343108,
+        "activity_10": 1.0061385559777842,
+        "activity_11": 0.3253820702694186,
+        "activity_2": 18.052447552447553,
+        "activity_3": 12.859277708592778,
+        "activity_4": 16.4688995215311,
+        "activity_5": 12.191263282172374,
+        "activity_6": 0.4738653572575834,
+        "activity_7": 0.4306088407005838,
+        "activity_8": 0.47894248608534323,
+        "activity_9": 14.223140495867769
+      }
+    },
+    {
+      "calibration": "multinomial logistic on outer-train grouped OOF probabilities",
+      "confusion_matrix": [
+        [
+          4,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          2,
+          3,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          5,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          6,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          123,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          133,
+          1,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          3,
+          121,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          5,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          62,
+          0
+        ],
+        [
+          3,
+          0,
+          1,
+          2,
+          0,
+          0,
+          0,
+          3,
+          0,
+          0,
+          182
+        ]
+      ],
+      "macro_f1": 0.8813999074065076,
+      "per_class": {
+        "activity_1": {
+          "auprc": 0.8875,
+          "f1": 0.6153846153846154,
+          "precision": 0.4444444444444444,
+          "recall": 1.0,
+          "support": 4
+        },
+        "activity_10": {
+          "auprc": 1.0,
+          "f1": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "support": 62
+        },
+        "activity_11": {
+          "auprc": 0.999513222457844,
+          "f1": 0.9758713136729222,
+          "precision": 1.0,
+          "recall": 0.9528795811518325,
+          "support": 191
+        },
+        "activity_2": {
+          "auprc": 0.925,
+          "f1": 0.75,
+          "precision": 1.0,
+          "recall": 0.6,
+          "support": 5
+        },
+        "activity_3": {
+          "auprc": 0.9266666666666665,
+          "f1": 0.9090909090909091,
+          "precision": 0.8333333333333334,
+          "recall": 1.0,
+          "support": 5
+        },
+        "activity_4": {
+          "auprc": 0.7,
+          "f1": 0.75,
+          "precision": 0.6,
+          "recall": 1.0,
+          "support": 3
+        },
+        "activity_5": {
+          "auprc": 1.0,
+          "f1": 0.9230769230769231,
+          "precision": 0.8571428571428571,
+          "recall": 1.0,
+          "support": 6
+        },
+        "activity_6": {
+          "auprc": 0.997143817204301,
+          "f1": 0.9959514170040485,
+          "precision": 1.0,
+          "recall": 0.9919354838709677,
+          "support": 124
+        },
+        "activity_7": {
+          "auprc": 0.9797432094297769,
+          "f1": 0.9708029197080292,
+          "precision": 0.9708029197080292,
+          "recall": 0.9708029197080292,
+          "support": 137
+        },
+        "activity_8": {
+          "auprc": 0.9873578491290164,
+          "f1": 0.9718875502008032,
+          "precision": 0.968,
+          "recall": 0.9758064516129032,
+          "support": 124
+        },
+        "activity_9": {
+          "auprc": 0.7861904761904761,
+          "f1": 0.8333333333333334,
+          "precision": 0.7142857142857143,
+          "recall": 1.0,
+          "support": 5
+        }
+      },
+      "present_classes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "subject": 9,
+      "test_class_counts": {
+        "activity_1": 4,
+        "activity_10": 62,
+        "activity_11": 191,
+        "activity_2": 5,
+        "activity_3": 5,
+        "activity_4": 3,
+        "activity_5": 6,
+        "activity_6": 124,
+        "activity_7": 137,
+        "activity_8": 124,
+        "activity_9": 5
+      },
+      "train_class_counts": {
+        "activity_1": 64,
+        "activity_10": 932,
+        "activity_11": 2790,
+        "activity_2": 53,
+        "activity_3": 73,
+        "activity_4": 59,
+        "activity_5": 77,
+        "activity_6": 1981,
+        "activity_7": 2181,
+        "activity_8": 1960,
+        "activity_9": 69
+      },
+      "train_class_weights": {
+        "activity_1": 14.544034090909092,
+        "activity_10": 0.9987319547405384,
+        "activity_11": 0.33362658846529814,
+        "activity_2": 17.562607204116638,
+        "activity_3": 12.75093399750934,
+        "activity_4": 15.77657935285054,
+        "activity_5": 12.088547815820544,
+        "activity_6": 0.46987288330044513,
+        "activity_7": 0.4267850443916469,
+        "activity_8": 0.4749072356215213,
+        "activity_9": 13.4901185770751
+      }
+    },
+    {
+      "calibration": "multinomial logistic on outer-train grouped OOF probabilities",
+      "confusion_matrix": [
+        [
+          3,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          2,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          3,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          131,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          2,
+          108,
+          18,
+          4,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          119,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          4,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          60,
+          0
+        ],
+        [
+          2,
+          1,
+          2,
+          2,
+          3,
+          0,
+          0,
+          0,
+          0,
+          0,
+          172
+        ]
+      ],
+      "macro_f1": 0.813195839294886,
+      "per_class": {
+        "activity_1": {
+          "auprc": 0.9166666666666666,
+          "f1": 0.75,
+          "precision": 0.6,
+          "recall": 1.0,
+          "support": 3
+        },
+        "activity_10": {
+          "auprc": 1.0,
+          "f1": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "support": 60
+        },
+        "activity_11": {
+          "auprc": 0.9860099164672868,
+          "f1": 0.9717514124293786,
+          "precision": 1.0,
+          "recall": 0.945054945054945,
+          "support": 182
+        },
+        "activity_2": {
+          "auprc": null,
+          "f1": null,
+          "precision": null,
+          "recall": null,
+          "support": 0
+        },
+        "activity_3": {
+          "auprc": 0.7555555555555555,
+          "f1": 0.5714285714285714,
+          "precision": 0.5,
+          "recall": 0.6666666666666666,
+          "support": 3
+        },
+        "activity_4": {
+          "auprc": 0.9166666666666666,
+          "f1": 0.75,
+          "precision": 0.6,
+          "recall": 1.0,
+          "support": 3
+        },
+        "activity_5": {
+          "auprc": 0.7555555555555555,
+          "f1": 0.6,
+          "precision": 0.42857142857142855,
+          "recall": 1.0,
+          "support": 3
+        },
+        "activity_6": {
+          "auprc": 1.0,
+          "f1": 0.9924242424242424,
+          "precision": 0.9849624060150376,
+          "recall": 1.0,
+          "support": 131
+        },
+        "activity_7": {
+          "auprc": 0.9909438518406886,
+          "f1": 0.9,
+          "precision": 1.0,
+          "recall": 0.8181818181818182,
+          "support": 132
+        },
+        "activity_8": {
+          "auprc": 0.99978814058026,
+          "f1": 0.9296875,
+          "precision": 0.8686131386861314,
+          "recall": 1.0,
+          "support": 119
+        },
+        "activity_9": {
+          "auprc": 0.7928571428571428,
+          "f1": 0.6666666666666666,
+          "precision": 0.5,
+          "recall": 1.0,
+          "support": 4
+        }
+      },
+      "present_classes": [
+        1,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "subject": 10,
+      "test_class_counts": {
+        "activity_1": 3,
+        "activity_10": 60,
+        "activity_11": 182,
+        "activity_2": 0,
+        "activity_3": 3,
+        "activity_4": 3,
+        "activity_5": 3,
+        "activity_6": 131,
+        "activity_7": 132,
+        "activity_8": 119,
+        "activity_9": 4
+      },
+      "train_class_counts": {
+        "activity_1": 65,
+        "activity_10": 934,
+        "activity_11": 2799,
+        "activity_2": 58,
+        "activity_3": 75,
+        "activity_4": 59,
+        "activity_5": 80,
+        "activity_6": 1974,
+        "activity_7": 2186,
+        "activity_8": 1965,
+        "activity_9": 70
+      },
+      "train_class_weights": {
+        "activity_1": 14.356643356643357,
+        "activity_10": 0.9991240023359937,
+        "activity_11": 0.3333982915976485,
+        "activity_2": 16.08934169278997,
+        "activity_3": 12.442424242424243,
+        "activity_4": 15.816640986132512,
+        "activity_5": 11.664772727272727,
+        "activity_6": 0.47273648337478125,
+        "activity_7": 0.4268901272560925,
+        "activity_8": 0.47490168864214666,
+        "activity_9": 13.331168831168831
+      }
+    },
+    {
+      "calibration": "multinomial logistic on outer-train grouped OOF probabilities",
+      "confusion_matrix": [
+        [
+          3,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0,
+          3,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          6,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          5,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          132,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          137,
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          123,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          5,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          63,
+          0
+        ],
+        [
+          2,
+          5,
+          1,
+          0,
+          2,
+          0,
+          0,
+          0,
+          0,
+          0,
+          181
+        ]
+      ],
+      "macro_f1": 0.8163604293033557,
+      "per_class": {
+        "activity_1": {
+          "auprc": 0.8666666666666667,
+          "f1": 0.75,
+          "precision": 0.6,
+          "recall": 1.0,
+          "support": 3
+        },
+        "activity_10": {
+          "auprc": 1.0,
+          "f1": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "support": 63
+        },
+        "activity_11": {
+          "auprc": 0.9871781058998245,
+          "f1": 0.9731182795698925,
+          "precision": 1.0,
+          "recall": 0.9476439790575916,
+          "support": 191
+        },
+        "activity_2": {
+          "auprc": 0.34090909090909094,
+          "f1": 0.2222222222222222,
+          "precision": 0.14285714285714285,
+          "recall": 0.5,
+          "support": 2
+        },
+        "activity_3": {
+          "auprc": 0.8134920634920634,
+          "f1": 0.5454545454545454,
+          "precision": 0.6,
+          "recall": 0.5,
+          "support": 6
+        },
+        "activity_4": {
+          "auprc": 1.0,
+          "f1": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "support": 6
+        },
+        "activity_5": {
+          "auprc": 0.7416666666666667,
+          "f1": 0.6666666666666666,
+          "precision": 0.5,
+          "recall": 1.0,
+          "support": 5
+        },
+        "activity_6": {
+          "auprc": 1.0,
+          "f1": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "support": 132
+        },
+        "activity_7": {
+          "auprc": 0.9892985151049667,
+          "f1": 0.9891696750902527,
+          "precision": 1.0,
+          "recall": 0.9785714285714285,
+          "support": 140
+        },
+        "activity_8": {
+          "auprc": 1.0,
+          "f1": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "support": 123
+        },
+        "activity_9": {
+          "auprc": 1.0,
+          "f1": 0.8333333333333334,
+          "precision": 0.7142857142857143,
+          "recall": 1.0,
+          "support": 5
+        }
+      },
+      "present_classes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "subject": 11,
+      "test_class_counts": {
+        "activity_1": 3,
+        "activity_10": 63,
+        "activity_11": 191,
+        "activity_2": 2,
+        "activity_3": 6,
+        "activity_4": 6,
+        "activity_5": 5,
+        "activity_6": 132,
+        "activity_7": 140,
+        "activity_8": 123,
+        "activity_9": 5
+      },
+      "train_class_counts": {
+        "activity_1": 65,
+        "activity_10": 931,
+        "activity_11": 2790,
+        "activity_2": 56,
+        "activity_3": 72,
+        "activity_4": 56,
+        "activity_5": 78,
+        "activity_6": 1973,
+        "activity_7": 2178,
+        "activity_8": 1961,
+        "activity_9": 69
+      },
+      "train_class_weights": {
+        "activity_1": 14.306293706293706,
+        "activity_10": 0.9988282394297432,
+        "activity_11": 0.33330074942978166,
+        "activity_2": 16.60551948051948,
+        "activity_3": 12.91540404040404,
+        "activity_4": 16.60551948051948,
+        "activity_5": 11.921911421911421,
+        "activity_6": 0.47131732940146526,
+        "activity_7": 0.4269555054679022,
+        "activity_8": 0.4742014742014742,
+        "activity_9": 13.476943346508564
+      }
+    },
+    {
+      "calibration": "multinomial logistic on outer-train grouped OOF probabilities",
+      "confusion_matrix": [
+        [
+          1,
+          2,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          4,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          2,
+          0,
+          2,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          132,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          141,
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          92,
+          35,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          63,
+          0
+        ],
+        [
+          0,
+          3,
+          3,
+          2,
+          2,
+          0,
+          0,
+          12,
+          0,
+          0,
+          167
+        ]
+      ],
+      "macro_f1": 0.7031667402725132,
+      "per_class": {
+        "activity_1": {
+          "auprc": 0.6,
+          "f1": 0.5,
+          "precision": 1.0,
+          "recall": 0.3333333333333333,
+          "support": 3
+        },
+        "activity_10": {
+          "auprc": 1.0,
+          "f1": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "support": 63
+        },
+        "activity_11": {
+          "auprc": 0.9745660864097085,
+          "f1": 0.9382022471910112,
+          "precision": 1.0,
+          "recall": 0.8835978835978836,
+          "support": 189
+        },
+        "activity_2": {
+          "auprc": null,
+          "f1": null,
+          "precision": null,
+          "recall": null,
+          "support": 0
+        },
+        "activity_3": {
+          "auprc": 0.2869047619047619,
+          "f1": 0.5454545454545454,
+          "precision": 0.375,
+          "recall": 1.0,
+          "support": 3
+        },
+        "activity_4": {
+          "auprc": 0.7333333333333333,
+          "f1": 0.8,
+          "precision": 0.6666666666666666,
+          "recall": 1.0,
+          "support": 4
+        },
+        "activity_5": {
+          "auprc": 0.6243589743589744,
+          "f1": 0.5,
+          "precision": 0.5,
+          "recall": 0.5,
+          "support": 4
+        },
+        "activity_6": {
+          "auprc": 1.0,
+          "f1": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "support": 132
+        },
+        "activity_7": {
+          "auprc": 0.9896905611947844,
+          "f1": 0.7480106100795756,
+          "precision": 0.6051502145922747,
+          "recall": 0.9791666666666666,
+          "support": 144
+        },
+        "activity_8": {
+          "auprc": 0.7740116526702207,
+          "f1": 0.4,
+          "precision": 0.7446808510638298,
+          "recall": 0.2734375,
+          "support": 128
+        },
+        "activity_9": {
+          "auprc": 0.9166666666666666,
+          "f1": 0.6,
+          "precision": 0.42857142857142855,
+          "recall": 1.0,
+          "support": 3
+        }
+      },
+      "present_classes": [
+        1,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "subject": 12,
+      "test_class_counts": {
+        "activity_1": 3,
+        "activity_10": 63,
+        "activity_11": 189,
+        "activity_2": 0,
+        "activity_3": 3,
+        "activity_4": 4,
+        "activity_5": 4,
+        "activity_6": 132,
+        "activity_7": 144,
+        "activity_8": 128,
+        "activity_9": 3
+      },
+      "train_class_counts": {
+        "activity_1": 65,
+        "activity_10": 931,
+        "activity_11": 2792,
+        "activity_2": 58,
+        "activity_3": 75,
+        "activity_4": 58,
+        "activity_5": 79,
+        "activity_6": 1973,
+        "activity_7": 2174,
+        "activity_8": 1956,
+        "activity_9": 71
+      },
+      "train_class_weights": {
+        "activity_1": 14.31048951048951,
+        "activity_10": 0.9991211795723074,
+        "activity_11": 0.33315967699921856,
+        "activity_2": 16.037617554858933,
+        "activity_3": 12.402424242424242,
+        "activity_4": 16.037617554858933,
+        "activity_5": 11.774453394706558,
+        "activity_6": 0.4714555591392895,
+        "activity_7": 0.42786652170276823,
+        "activity_8": 0.47555307678007064,
+        "activity_9": 13.101152368758003
+      }
+    },
+    {
+      "calibration": "multinomial logistic on outer-train grouped OOF probabilities",
+      "confusion_matrix": [
+        [
+          4,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          2,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          4,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          2,
+          2,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          116,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          2,
+          2,
+          1,
+          0,
+          0,
+          145,
+          2,
+          4,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          125,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          2,
+          0,
+          0,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          57,
+          0
+        ],
+        [
+          2,
+          3,
+          3,
+          1,
+          2,
+          0,
+          0,
+          0,
+          0,
+          0,
+          167
+        ]
+      ],
+      "macro_f1": 0.7314417287901047,
+      "per_class": {
+        "activity_1": {
+          "auprc": 1.0,
+          "f1": 0.7272727272727273,
+          "precision": 0.5714285714285714,
+          "recall": 1.0,
+          "support": 4
+        },
+        "activity_10": {
+          "auprc": 1.0000000000000002,
+          "f1": 0.991304347826087,
+          "precision": 1.0,
+          "recall": 0.9827586206896551,
+          "support": 58
+        },
+        "activity_11": {
+          "auprc": 0.9929870543514596,
+          "f1": 0.9681159420289855,
+          "precision": 1.0,
+          "recall": 0.9382022471910112,
+          "support": 178
+        },
+        "activity_2": {
+          "auprc": 0.5333333333333333,
+          "f1": 0.5,
+          "precision": 0.3333333333333333,
+          "recall": 1.0,
+          "support": 3
+        },
+        "activity_3": {
+          "auprc": 0.7666666666666666,
+          "f1": 0.4,
+          "precision": 0.2857142857142857,
+          "recall": 0.6666666666666666,
+          "support": 3
+        },
+        "activity_4": {
+          "auprc": 0.9166666666666666,
+          "f1": 0.6153846153846154,
+          "precision": 0.4444444444444444,
+          "recall": 1.0,
+          "support": 4
+        },
+        "activity_5": {
+          "auprc": 0.6666666666666666,
+          "f1": 0.5,
+          "precision": 0.5,
+          "recall": 0.5,
+          "support": 4
+        },
+        "activity_6": {
+          "auprc": 0.9997795703258832,
+          "f1": 0.9914529914529915,
+          "precision": 0.9830508474576272,
+          "recall": 1.0,
+          "support": 116
+        },
+        "activity_7": {
+          "auprc": 0.97724811168169,
+          "f1": 0.9602649006622517,
+          "precision": 1.0,
+          "recall": 0.9235668789808917,
+          "support": 157
+        },
+        "activity_8": {
+          "auprc": 1.0,
+          "f1": 0.9920634920634921,
+          "precision": 0.984251968503937,
+          "recall": 1.0,
+          "support": 125
+        },
+        "activity_9": {
+          "auprc": 0.306756230529595,
+          "f1": 0.4,
+          "precision": 0.3333333333333333,
+          "recall": 0.5,
+          "support": 4
+        }
+      },
+      "present_classes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "subject": 13,
+      "test_class_counts": {
+        "activity_1": 4,
+        "activity_10": 58,
+        "activity_11": 178,
+        "activity_2": 3,
+        "activity_3": 3,
+        "activity_4": 4,
+        "activity_5": 4,
+        "activity_6": 116,
+        "activity_7": 157,
+        "activity_8": 125,
+        "activity_9": 4
+      },
+      "train_class_counts": {
+        "activity_1": 64,
+        "activity_10": 936,
+        "activity_11": 2803,
+        "activity_2": 55,
+        "activity_3": 75,
+        "activity_4": 58,
+        "activity_5": 79,
+        "activity_6": 1989,
+        "activity_7": 2161,
+        "activity_8": 1959,
+        "activity_9": 70
+      },
+      "train_class_weights": {
+        "activity_1": 14.558238636363637,
+        "activity_10": 0.9954351204351204,
+        "activity_11": 0.3324035935523627,
+        "activity_2": 16.940495867768593,
+        "activity_3": 12.423030303030304,
+        "activity_4": 16.064263322884013,
+        "activity_5": 11.794016110471807,
+        "activity_6": 0.46844005667535077,
+        "activity_7": 0.43115560977661854,
+        "activity_8": 0.47561371757390136,
+        "activity_9": 13.31038961038961
+      }
+    },
+    {
+      "calibration": "multinomial logistic on outer-train grouped OOF probabilities",
+      "confusion_matrix": [
+        [
+          3,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          2,
+          2,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          2,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          0,
+          0,
+          3,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          120,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          0,
+          1,
+          0,
+          0,
+          126,
+          10,
+          4,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          81,
+          19,
+          4,
+          0,
+          19
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          57,
+          0
+        ],
+        [
+          1,
+          5,
+          1,
+          4,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          168
+        ]
+      ],
+      "macro_f1": 0.5760271727142947,
+      "per_class": {
+        "activity_1": {
+          "auprc": 1.0,
+          "f1": 0.75,
+          "precision": 0.6,
+          "recall": 1.0,
+          "support": 3
+        },
+        "activity_10": {
+          "auprc": 1.0000000000000002,
+          "f1": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "support": 57
+        },
+        "activity_11": {
+          "auprc": 0.9523660334382158,
+          "f1": 0.9180327868852459,
+          "precision": 0.8983957219251337,
+          "recall": 0.9385474860335196,
+          "support": 179
+        },
+        "activity_2": {
+          "auprc": 0.6666666666666667,
+          "f1": 0.42857142857142855,
+          "precision": 0.2727272727272727,
+          "recall": 1.0,
+          "support": 3
+        },
+        "activity_3": {
+          "auprc": 0.32916666666666666,
+          "f1": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "support": 4
+        },
+        "activity_4": {
+          "auprc": 0.8333333333333333,
+          "f1": 0.36363636363636365,
+          "precision": 0.2222222222222222,
+          "recall": 1.0,
+          "support": 2
+        },
+        "activity_5": {
+          "auprc": 0.5037719298245613,
+          "f1": 0.6,
+          "precision": 0.6,
+          "recall": 0.6,
+          "support": 5
+        },
+        "activity_6": {
+          "auprc": 0.9999999999999999,
+          "f1": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "support": 120
+        },
+        "activity_7": {
+          "auprc": 0.8933200117077768,
+          "f1": 0.72,
+          "precision": 0.6086956521739131,
+          "recall": 0.8811188811188811,
+          "support": 143
+        },
+        "activity_8": {
+          "auprc": 0.7536748088148446,
+          "f1": 0.24836601307189543,
+          "precision": 0.6333333333333333,
+          "recall": 0.15447154471544716,
+          "support": 123
+        },
+        "activity_9": {
+          "auprc": 0.75,
+          "f1": 0.3076923076923077,
+          "precision": 0.2,
+          "recall": 0.6666666666666666,
+          "support": 3
+        }
+      },
+      "present_classes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "subject": 14,
+      "test_class_counts": {
+        "activity_1": 3,
+        "activity_10": 57,
+        "activity_11": 179,
+        "activity_2": 3,
+        "activity_3": 4,
+        "activity_4": 2,
+        "activity_5": 5,
+        "activity_6": 120,
+        "activity_7": 143,
+        "activity_8": 123,
+        "activity_9": 3
+      },
+      "train_class_counts": {
+        "activity_1": 65,
+        "activity_10": 937,
+        "activity_11": 2802,
+        "activity_2": 55,
+        "activity_3": 74,
+        "activity_4": 60,
+        "activity_5": 78,
+        "activity_6": 1985,
+        "activity_7": 2175,
+        "activity_8": 1961,
+        "activity_9": 71
+      },
+      "train_class_weights": {
+        "activity_1": 14.353846153846154,
+        "activity_10": 0.9957310565635006,
+        "activity_11": 0.3329764453961456,
+        "activity_2": 16.963636363636365,
+        "activity_3": 12.608108108108109,
+        "activity_4": 15.55,
+        "activity_5": 11.961538461538462,
+        "activity_6": 0.47002518891687656,
+        "activity_7": 0.4289655172413793,
+        "activity_8": 0.4757776644569097,
+        "activity_9": 13.140845070422536
+      }
+    },
+    {
+      "calibration": "multinomial logistic on outer-train grouped OOF probabilities",
+      "confusion_matrix": [
+        [
+          2,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          2,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          4,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          6,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          6,
+          0,
+          0,
+          7,
+          97,
+          12,
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          132,
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          109,
+          0,
+          0,
+          26
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          4,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          55,
+          0
+        ],
+        [
+          3,
+          5,
+          2,
+          2,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          168
+        ]
+      ],
+      "macro_f1": 0.719245348399978,
+      "per_class": {
+        "activity_1": {
+          "auprc": 1.0,
+          "f1": 0.4444444444444444,
+          "precision": 0.2857142857142857,
+          "recall": 1.0,
+          "support": 2
+        },
+        "activity_10": {
+          "auprc": 1.0,
+          "f1": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "support": 55
+        },
+        "activity_11": {
+          "auprc": 0.8418516456542446,
+          "f1": 0.896,
+          "precision": 0.865979381443299,
+          "recall": 0.9281767955801105,
+          "support": 181
+        },
+        "activity_2": {
+          "auprc": 0.6989247311827956,
+          "f1": 0.25,
+          "precision": 0.15384615384615385,
+          "recall": 0.6666666666666666,
+          "support": 3
+        },
+        "activity_3": {
+          "auprc": 0.95,
+          "f1": 0.8,
+          "precision": 0.6666666666666666,
+          "recall": 1.0,
+          "support": 4
+        },
+        "activity_4": {
+          "auprc": 0.5,
+          "f1": 0.4,
+          "precision": 0.25,
+          "recall": 1.0,
+          "support": 1
+        },
+        "activity_5": {
+          "auprc": 0.5438492063492064,
+          "f1": 0.6,
+          "precision": 0.42857142857142855,
+          "recall": 1.0,
+          "support": 6
+        },
+        "activity_6": {
+          "auprc": 0.9860609557141571,
+          "f1": 0.8818181818181818,
+          "precision": 1.0,
+          "recall": 0.7886178861788617,
+          "support": 123
+        },
+        "activity_7": {
+          "auprc": 0.9925961742592871,
+          "f1": 0.9496402877697842,
+          "precision": 0.9166666666666666,
+          "recall": 0.9850746268656716,
+          "support": 134
+        },
+        "activity_8": {
+          "auprc": 0.9092045489969975,
+          "f1": 0.889795918367347,
+          "precision": 1.0,
+          "recall": 0.8014705882352942,
+          "support": 136
+        },
+        "activity_9": {
+          "auprc": 1.0,
+          "f1": 0.8,
+          "precision": 0.6666666666666666,
+          "recall": 1.0,
+          "support": 4
+        }
+      },
+      "present_classes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "subject": 15,
+      "test_class_counts": {
+        "activity_1": 2,
+        "activity_10": 55,
+        "activity_11": 181,
+        "activity_2": 3,
+        "activity_3": 4,
+        "activity_4": 1,
+        "activity_5": 6,
+        "activity_6": 123,
+        "activity_7": 134,
+        "activity_8": 136,
+        "activity_9": 4
+      },
+      "train_class_counts": {
+        "activity_1": 66,
+        "activity_10": 939,
+        "activity_11": 2800,
+        "activity_2": 55,
+        "activity_3": 74,
+        "activity_4": 61,
+        "activity_5": 77,
+        "activity_6": 1982,
+        "activity_7": 2184,
+        "activity_8": 1948,
+        "activity_9": 70
+      },
+      "train_class_weights": {
+        "activity_1": 14.1267217630854,
+        "activity_10": 0.9929325200890696,
+        "activity_11": 0.332987012987013,
+        "activity_2": 16.95206611570248,
+        "activity_3": 12.5995085995086,
+        "activity_4": 15.284649776453055,
+        "activity_5": 12.108618654073199,
+        "activity_6": 0.4704155582056692,
+        "activity_7": 0.4269064269064269,
+        "activity_8": 0.4786260966959119,
+        "activity_9": 13.31948051948052
+      }
+    },
+    {
+      "calibration": "multinomial logistic on outer-train grouped OOF probabilities",
+      "confusion_matrix": [
+        [
+          1,
+          3,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          6,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          2,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          111,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          122,
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          115,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          4,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          54,
+          0
+        ],
+        [
+          0,
+          4,
+          0,
+          4,
+          1,
+          0,
+          0,
+          26,
+          0,
+          0,
+          136
+        ]
+      ],
+      "macro_f1": 0.7487186280222285,
+      "per_class": {
+        "activity_1": {
+          "auprc": 0.95,
+          "f1": 0.4,
+          "precision": 1.0,
+          "recall": 0.25,
+          "support": 4
+        },
+        "activity_10": {
+          "auprc": 0.9999999999999998,
+          "f1": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "support": 54
+        },
+        "activity_11": {
+          "auprc": 0.9849377568335053,
+          "f1": 0.8859934853420195,
+          "precision": 1.0,
+          "recall": 0.7953216374269005,
+          "support": 171
+        },
+        "activity_2": {
+          "auprc": 0.7291666666666666,
+          "f1": 0.3333333333333333,
+          "precision": 0.2222222222222222,
+          "recall": 0.6666666666666666,
+          "support": 3
+        },
+        "activity_3": {
+          "auprc": 1.0,
+          "f1": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "support": 6
+        },
+        "activity_4": {
+          "auprc": 0.7555555555555555,
+          "f1": 0.5,
+          "precision": 0.3333333333333333,
+          "recall": 1.0,
+          "support": 3
+        },
+        "activity_5": {
+          "auprc": 0.6428571428571428,
+          "f1": 0.3333333333333333,
+          "precision": 0.3333333333333333,
+          "recall": 0.3333333333333333,
+          "support": 3
+        },
+        "activity_6": {
+          "auprc": 1.0,
+          "f1": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "support": 111
+        },
+        "activity_7": {
+          "auprc": 0.9959349593495936,
+          "f1": 0.9959183673469387,
+          "precision": 1.0,
+          "recall": 0.991869918699187,
+          "support": 123
+        },
+        "activity_8": {
+          "auprc": 0.9060854329744785,
+          "f1": 0.8984375,
+          "precision": 0.8156028368794326,
+          "recall": 1.0,
+          "support": 115
+        },
+        "activity_9": {
+          "auprc": 1.0,
+          "f1": 0.8888888888888888,
+          "precision": 0.8,
+          "recall": 1.0,
+          "support": 4
+        }
+      },
+      "present_classes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "subject": 16,
+      "test_class_counts": {
+        "activity_1": 4,
+        "activity_10": 54,
+        "activity_11": 171,
+        "activity_2": 3,
+        "activity_3": 6,
+        "activity_4": 3,
+        "activity_5": 3,
+        "activity_6": 111,
+        "activity_7": 123,
+        "activity_8": 115,
+        "activity_9": 4
+      },
+      "train_class_counts": {
+        "activity_1": 64,
+        "activity_10": 940,
+        "activity_11": 2810,
+        "activity_2": 55,
+        "activity_3": 72,
+        "activity_4": 59,
+        "activity_5": 80,
+        "activity_6": 1994,
+        "activity_7": 2195,
+        "activity_8": 1969,
+        "activity_9": 70
+      },
+      "train_class_weights": {
+        "activity_1": 14.642045454545455,
+        "activity_10": 0.9969052224371373,
+        "activity_11": 0.33348430928502104,
+        "activity_2": 17.03801652892562,
+        "activity_3": 13.015151515151516,
+        "activity_4": 15.882896764252697,
+        "activity_5": 11.713636363636363,
+        "activity_6": 0.46995532050697547,
+        "activity_7": 0.42692068751294265,
+        "activity_8": 0.47592224941133016,
+        "activity_9": 13.387012987012987
+      }
+    },
+    {
+      "calibration": "multinomial logistic on outer-train grouped OOF probabilities",
+      "confusion_matrix": [
+        [
+          4,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          6,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          4,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          4,
+          0,
+          2,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          126,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          128,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          122,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          6,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          59,
+          0
+        ],
+        [
+          1,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          180
+        ]
+      ],
+      "macro_f1": 0.8584172943677078,
+      "per_class": {
+        "activity_1": {
+          "auprc": 0.8711111111111112,
+          "f1": 0.8,
+          "precision": 0.8,
+          "recall": 0.8,
+          "support": 5
+        },
+        "activity_10": {
+          "auprc": 1.0,
+          "f1": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "support": 59
+        },
+        "activity_11": {
+          "auprc": 0.9999110639798627,
+          "f1": 0.9917355371900827,
+          "precision": 1.0,
+          "recall": 0.9836065573770492,
+          "support": 183
+        },
+        "activity_2": {
+          "auprc": 0.915079365079365,
+          "f1": 0.9230769230769231,
+          "precision": 0.8571428571428571,
+          "recall": 1.0,
+          "support": 6
+        },
+        "activity_3": {
+          "auprc": 0.7002136752136752,
+          "f1": 0.5333333333333333,
+          "precision": 0.4444444444444444,
+          "recall": 0.6666666666666666,
+          "support": 6
+        },
+        "activity_4": {
+          "auprc": 0.8666666666666667,
+          "f1": 0.75,
+          "precision": 0.6,
+          "recall": 1.0,
+          "support": 3
+        },
+        "activity_5": {
+          "auprc": 0.6256313131313131,
+          "f1": 0.4444444444444444,
+          "precision": 0.6666666666666666,
+          "recall": 0.3333333333333333,
+          "support": 6
+        },
+        "activity_6": {
+          "auprc": 0.9999999999999999,
+          "f1": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "support": 126
+        },
+        "activity_7": {
+          "auprc": 1.0,
+          "f1": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "support": 128
+        },
+        "activity_8": {
+          "auprc": 1.0,
+          "f1": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "support": 122
+        },
+        "activity_9": {
+          "auprc": 1.0,
+          "f1": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "support": 6
+        }
+      },
+      "present_classes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "subject": 17,
+      "test_class_counts": {
+        "activity_1": 5,
+        "activity_10": 59,
+        "activity_11": 183,
+        "activity_2": 6,
+        "activity_3": 6,
+        "activity_4": 3,
+        "activity_5": 6,
+        "activity_6": 126,
+        "activity_7": 128,
+        "activity_8": 122,
+        "activity_9": 6
+      },
+      "train_class_counts": {
+        "activity_1": 63,
+        "activity_10": 935,
+        "activity_11": 2798,
+        "activity_2": 52,
+        "activity_3": 72,
+        "activity_4": 59,
+        "activity_5": 77,
+        "activity_6": 1979,
+        "activity_7": 2190,
+        "activity_8": 1962,
+        "activity_9": 68
+      },
+      "train_class_weights": {
+        "activity_1": 14.797979797979798,
+        "activity_10": 0.9970831307729704,
+        "activity_11": 0.3331925401260641,
+        "activity_2": 17.928321678321677,
+        "activity_3": 12.948232323232324,
+        "activity_4": 15.801232665639445,
+        "activity_5": 12.107438016528926,
+        "activity_6": 0.47108273232578435,
+        "activity_7": 0.4256953092569531,
+        "activity_8": 0.4751644889259568,
+        "activity_9": 13.709893048128341
+      }
+    }
+  ],
+  "run_id": "EXP-XGB-11C-LOSO-001",
+  "schema_version": 1,
+  "split_checksum": "aae844779e35e3dbcd12c6e6e7513e07e0e8db50094edebfffb3bc374bc7e72a",
+  "status": "RUN",
+  "task": "11-class-activity-recognition"
+}

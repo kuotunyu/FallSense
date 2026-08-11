@@ -1,0 +1,6 @@
+window_size_samples: 20
+stride_samples: 10
+label_strategy: center
+fall_fraction_threshold: 0.2
+tag20_policy: drop_window
+missing_channel_policy: preserve_nan

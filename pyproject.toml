@@ -1,0 +1,99 @@
+[build-system]
+requires = ["hatchling>=1.27"]
+build-backend = "hatchling.build"
+
+[project]
+name = "fallsense"
+version = "0.1.0"
+description = "隱私優先、可重現的 UP-Fall 感測器跌倒偵測研究管線"
+readme = "README.md"
+requires-python = ">=3.10,<3.14"
+license = { text = "MIT" }
+authors = [{ name = "FallSense contributors" }]
+dependencies = [
+  "numpy>=1.26,<3",
+  "pandas>=2.2,<4",
+  "PyYAML>=6.0,<7",
+  "scikit-learn>=1.5,<2",
+]
+
+[project.optional-dependencies]
+download = ["gdown>=5.2,<6"]
+plot = ["matplotlib>=3.8,<4"]
+train = ["xgboost>=2.1,<4"]
+export = [
+  "onnx>=1.22,<2",
+  "onnxmltools>=1.16,<2",
+  "onnxruntime>=1.23,<1.24",
+  "safetensors>=0.8,<1",
+  "skl2onnx>=1.20,<2",
+]
+gpu = ["onnxruntime-gpu>=1.23,<1.24"]
+dev = [
+  "mypy>=1.13,<2",
+  "pandas-stubs>=2.2",
+  "playwright>=1.55,<2",
+  "pytest>=8.3,<10",
+  "pytest-cov>=6,<8",
+  "ruff>=0.9,<1",
+  "types-PyYAML>=6.0",
+]
+
+[project.scripts]
+fallsense-generate-fixture = "fallsense.data.synthetic:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/fallsense"]
+
+[tool.pytest.ini_options]
+addopts = "-ra --strict-markers --strict-config"
+testpaths = ["tests"]
+pythonpath = ["src", "."]
+
+[tool.uv]
+# Windows Python 3.10 會以 CP950 讀 editable .pth；含中文的 checkout 路徑因此不可用。
+# 開發時直接把 src/ 放進測試路徑，wheel/container build 仍由 hatchling 驗證。
+package = false
+
+[tool.coverage.run]
+branch = true
+source = ["fallsense"]
+
+[tool.coverage.report]
+show_missing = true
+skip_covered = true
+
+[tool.ruff]
+target-version = "py310"
+line-length = 100
+extend-exclude = ["notebooks/*.ipynb"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP"]
+
+[tool.mypy]
+python_version = "3.10"
+strict = true
+warn_unreachable = true
+mypy_path = "src"
+files = ["src/fallsense", "scripts"]
+
+[[tool.mypy.overrides]]
+module = ["sklearn.*"]
+ignore_missing_imports = true
+
+[[tool.mypy.overrides]]
+module = ["torch", "torch.*"]
+ignore_missing_imports = true
+
+[[tool.mypy.overrides]]
+module = ["onnx", "onnx.*", "onnxmltools", "onnxmltools.*", "onnxruntime"]
+ignore_missing_imports = true
+
+[[tool.mypy.overrides]]
+module = ["fallsense.models.tcn"]
+disable_error_code = ["misc", "no-any-return"]
+
+[[tool.mypy.overrides]]
+module = ["scripts.export_models", "scripts.verify_export_parity"]
+disable_error_code = ["import-not-found", "misc", "unused-ignore"]

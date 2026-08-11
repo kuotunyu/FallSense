@@ -1,0 +1,25 @@
+evaluation:
+  random_state: 20260719
+  inner_folds: 3
+  num_classes: 11
+model:
+  hidden_channels: 32
+  levels: 3
+  kernel_size: 3
+  dropout: 0.1
+  learning_rate: 0.001
+  weight_decay: 0.0001
+  epochs: 8
+  batch_size: 256
+  device: cuda
+  deterministic: true
+protocol:
+  architecture: causal_tcn
+  input: raw_window_50x42
+  normalization: per_channel_train_fold_only
+  missing_channels: explicit_mask_before_channel_mixing
+  imbalance: cross_entropy_balanced_class_weights_train_fold_only
+  early_stopping: disabled_fixed_epochs
+runtime:
+  torch: 2.11.0+cu128
+  install_index: https://download.pytorch.org/whl/cu128

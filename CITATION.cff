@@ -1,0 +1,39 @@
+cff-version: 1.2.0
+message: "若使用 FallSense，請引用本軟體與原始 UP-Fall dataset 論文。"
+title: "FallSense"
+type: software
+version: 0.1.0
+date-released: 2026-08-11
+abstract: "隱私優先的 UP-Fall subject-wise 跌倒偵測研究管線與可追溯評估證據。"
+license: MIT
+keywords:
+  - fall detection
+  - human activity recognition
+  - wearable sensors
+  - subject-wise evaluation
+  - ONNX
+authors:
+  - family-names: "kuotunyu"
+references:
+  - type: article
+    title: "UP-Fall Detection Dataset: A Multimodal Approach"
+    authors:
+      - family-names: "Martínez-Villaseñor"
+        given-names: "Lourdes"
+      - family-names: "Ponce"
+        given-names: "Hiram"
+      - family-names: "Brieva"
+        given-names: "Jorge"
+      - family-names: "Moya-Albor"
+        given-names: "Ernesto"
+      - family-names: "Núñez-Martínez"
+        given-names: "José"
+      - family-names: "Peñafort-Asturiano"
+        given-names: "Carlos"
+    journal: "Sensors"
+    year: 2019
+    volume: 19
+    issue: 9
+    start: 1988
+    doi: "10.3390/s19091988"
+    url: "https://www.mdpi.com/1424-8220/19/9/1988"

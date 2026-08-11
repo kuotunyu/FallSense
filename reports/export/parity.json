@@ -1,0 +1,82 @@
+{
+  "opset": 15,
+  "schema_version": 1,
+  "tcn": {
+    "auprc_tolerance": 0.005,
+    "max_auprc_abs_diff": 0.0023133558979147595,
+    "max_probability_abs_diff": 2.980232238769531e-07,
+    "max_threshold_metric_abs_diff": 0.0,
+    "model": "TCN",
+    "onnx_aggregate": {
+      "auprc": {
+        "mean": 0.4706859275454522,
+        "std": 0.28701855578696905
+      },
+      "fall_recall": {
+        "mean": 0.5305754628509057,
+        "std": 0.31798059830308717
+      },
+      "false_positive_rate": {
+        "mean": 0.05617397243478539,
+        "std": 0.0913633976109154
+      },
+      "macro_f1": {
+        "mean": 0.676328550161254,
+        "std": 0.13616828067813241
+      },
+      "precision": {
+        "mean": 0.48035922817292254,
+        "std": 0.3072474400244302
+      }
+    },
+    "passed": true,
+    "probability_tolerance": 1e-05,
+    "registered_metric_max_abs_diff": {
+      "auprc": 0.0023133558979147595,
+      "fall_recall": 0.0,
+      "false_positive_rate": 0.0,
+      "macro_f1": 0.0,
+      "precision": 0.0
+    },
+    "threshold_metric_tolerance": 0.0001
+  },
+  "xgboost": {
+    "auprc_tolerance": 0.005,
+    "max_auprc_abs_diff": 2.220446049250313e-16,
+    "max_probability_abs_diff": 4.172325134277344e-07,
+    "max_threshold_metric_abs_diff": 0.0,
+    "model": "XGBoost",
+    "onnx_aggregate": {
+      "auprc": {
+        "mean": 0.9157137581118437,
+        "std": 0.09602636426740013
+      },
+      "fall_recall": {
+        "mean": 0.898949121528263,
+        "std": 0.20240294384186497
+      },
+      "false_positive_rate": {
+        "mean": 0.008346413284948081,
+        "std": 0.005343115668778992
+      },
+      "macro_f1": {
+        "mean": 0.9008837167938107,
+        "std": 0.07620853780273672
+      },
+      "precision": {
+        "mean": 0.7854035651548196,
+        "std": 0.13888097423572876
+      }
+    },
+    "passed": true,
+    "probability_tolerance": 1e-05,
+    "registered_metric_max_abs_diff": {
+      "auprc": 2.220446049250313e-16,
+      "fall_recall": 0.0,
+      "false_positive_rate": 0.0,
+      "macro_f1": 0.0,
+      "precision": 0.0
+    },
+    "threshold_metric_tolerance": 0.0001
+  }
+}

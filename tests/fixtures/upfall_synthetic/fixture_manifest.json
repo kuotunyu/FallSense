@@ -1,0 +1,115 @@
+{
+  "expected_combinations": 18,
+  "files": [
+    {
+      "missing_channels": [],
+      "path": "Subject1Activity1Trial1.csv",
+      "rows": 72,
+      "sha256": "c023b131a98d3cfe55e7bf59cf4d9db1daa4cf785759c37dbf6cb1cd07c5d5a6"
+    },
+    {
+      "missing_channels": [],
+      "path": "Subject1Activity1Trial2.csv",
+      "rows": 72,
+      "sha256": "3b837c14c6bd1594ab072bf9d7b6ab04ef24b2c4a76694353a98a75f3a3979aa"
+    },
+    {
+      "missing_channels": [],
+      "path": "Subject1Activity6Trial1.csv",
+      "rows": 72,
+      "sha256": "edc7d6277b4f23de394d893f7f29f3a97e8c6ffca1734955c17e9e8b2916b02d"
+    },
+    {
+      "missing_channels": [],
+      "path": "Subject1Activity6Trial2.csv",
+      "rows": 72,
+      "sha256": "d23dba959e9e91a11982bd497d153cb4c96a59afdba8dc02ac0746c75795484c"
+    },
+    {
+      "missing_channels": [],
+      "path": "Subject1Activity11Trial1.csv",
+      "rows": 72,
+      "sha256": "e4cef31063a1e68ba675aade25a7391415d97da06f124c5f91a34fe1f9ecce64"
+    },
+    {
+      "missing_channels": [],
+      "path": "Subject1Activity11Trial2.csv",
+      "rows": 72,
+      "sha256": "a9444b5ec34bcc0af25f778ace4e674e1c24fc29ab150910a96afd60ff7eb0e9"
+    },
+    {
+      "missing_channels": [],
+      "path": "Subject2Activity1Trial1.csv",
+      "rows": 72,
+      "sha256": "2555f648ec1dbcf3b98ae9a7e152b9541f2b04a7b49a1ee70f363d71696e1043"
+    },
+    {
+      "missing_channels": [],
+      "path": "Subject2Activity1Trial2.csv",
+      "rows": 72,
+      "sha256": "290e909d698e9878dbe0b570cfcb221570d781d60d91378618263b0770d70ea3"
+    },
+    {
+      "missing_channels": [],
+      "path": "Subject2Activity6Trial1.csv",
+      "rows": 72,
+      "sha256": "082289ba13aea207c5b5a89e314bb83ecf183f43b91715f07abdfb4fa3907c4e"
+    },
+    {
+      "missing_channels": [
+        "Infrared6"
+      ],
+      "path": "Subject2Activity6Trial2.csv",
+      "rows": 72,
+      "sha256": "e063fb6cab47835c93e99e6034345f62be7946da89e9fd7ab23a770b2e402558"
+    },
+    {
+      "missing_channels": [],
+      "path": "Subject2Activity11Trial1.csv",
+      "rows": 72,
+      "sha256": "7c580c859208ba94f367c41ee1b6a92e3ef08b09134214b6f2468ffa48423390"
+    },
+    {
+      "missing_channels": [],
+      "path": "Subject2Activity11Trial2.csv",
+      "rows": 72,
+      "sha256": "97af6095f7dedbf0394fed4db2cfdde9c26bdceaacbd9d93e24ebbbf9cd54c6e"
+    },
+    {
+      "missing_channels": [],
+      "path": "Subject3Activity1Trial1.csv",
+      "rows": 72,
+      "sha256": "757083f038b97761b6cb7ccc32b48602a4e47f2ceacf6b86b9165f99f74f0ecd"
+    },
+    {
+      "missing_channels": [],
+      "path": "Subject3Activity1Trial2.csv",
+      "rows": 72,
+      "sha256": "11ecec99cf1f5a989c998c2ceec5200d7b815dd7dcc923e7b17467b36e7ed6ce"
+    },
+    {
+      "missing_channels": [],
+      "path": "Subject3Activity6Trial1.csv",
+      "rows": 72,
+      "sha256": "52df0cb592271d0d9ab15a451a99b7cf335415b1bbf834988fa92285e481680a"
+    },
+    {
+      "missing_channels": [],
+      "path": "Subject3Activity6Trial2.csv",
+      "rows": 72,
+      "sha256": "c43c97a2770d3967c14d0a664ee5a13ecc99d27bcdd003942ca9042c77a731c1"
+    },
+    {
+      "missing_channels": [],
+      "path": "Subject3Activity11Trial1.csv",
+      "rows": 72,
+      "sha256": "841304a0bd6cf2562b2345b68b5750a4c6c9ec8a60db176553baae60bfe84267"
+    }
+  ],
+  "fixture": "synthetic-only; no UP-Fall participant data",
+  "known_missing": [
+    "Subject3Activity11Trial2.csv"
+  ],
+  "sample_rate_hz": 18.4,
+  "seed": 20260719
+}
