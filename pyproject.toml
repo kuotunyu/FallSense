@@ -39,9 +39,6 @@ dev = [
   "types-PyYAML>=6.0",
 ]
 
-[project.scripts]
-fallsense-generate-fixture = "fallsense.data.synthetic:main"
-
 [tool.hatch.build.targets.wheel]
 packages = ["src/fallsense"]
 
