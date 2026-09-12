@@ -60,10 +60,7 @@ Repository 不包含、鏡像或重新散布 UP-Fall 真實受試者資料。資
 
 ```powershell
 uv run python scripts/data_download.py --help
-uv run python scripts/make_windows.py \
-  --raw-dir data/raw/upfall \
-  --config configs/windowing_50_25.yaml \
-  --output-dir data/processed/real_50_25_center
+uv run python scripts/make_windows.py --raw-dir data/raw/upfall --config configs/windowing_50_25.yaml --output-dir data/processed/real_50_25_center
 ```
 
 XGBoost training 需額外安裝 `train` extra；ONNX 匯出需再加 `export`。TCN config 固定記錄
